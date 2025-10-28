@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sort Numbers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <h1>Sorting Numbers</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="game.html">Game</a> |
+    <a href="todo.html">To-Do</a> |
+    <a href="animation.html">Animation</a> |
+    <a href="form.html">Form</a> |
+    <a href="sort.html">Sort</a>
+  </nav>
+</header>
+<body>
+  <main>
+    <p>Enter numbers separated by commas or spaces:</p>
+    <input id="numbers" type="text" placeholder="e.g. 5, 3, 8, 1" style="width:60%" />
+    <div style="margin-top:10px">
+      <button id="sortAsc">Sort Ascending</button>
+      <button id="sortDesc">Sort Descending</button>
+      <button id="clearSort">Clear</button>
+    </div>
+    <p id="sortedResult" style="margin-top:15px; font-weight:bold;"></p>
+
+    <hr>
+    <h3>Visualize Sort (Bubble) — step by step</h3>
+    <div id="bars" style="display:flex; gap:6px; margin-top:10px;"></div>
+    <button id="visualize">Visualize Bubble</button>
+  </main>
+
+  <footer>Developed by Baisal SE-2437</footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="sort.js"></script>
+</body>
+</html>

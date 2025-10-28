@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <h1>Guessing Game</h1>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="game.html">Game</a> |
+    <a href="todo.html">To-Do</a> |
+    <a href="animation.html">Animation</a> |
+    <a href="form.html">Form</a> |
+    <a href="sort.html">Sort</a>
+  </nav>
+</header>
+<body>
+  <main>
+    <p>Guess a number between <strong id="minVal">1</strong> and <strong id="maxVal">10</strong>.</p>
+    <input type="number" id="userGuess" placeholder="Your guess" min="1" max="10" />
+    <button id="guessBtn">Check</button>
+    <button id="resetBtn">Play Again</button>
+    <p id="result"></p>
+    <p id="attempts"></p>
+  </main>
+  <footer>Developed by Baisal SE-2437</footer>
+  
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ 
+  <script src="game.js"></script>
+</body>
+</html>
